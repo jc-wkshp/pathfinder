@@ -61,7 +61,7 @@ objects:
             limits:
               memory: 1Gi
             requests:
-              memory: 1Gi
+              memory: 512Mi
           terminationMessagePath: /dev/termination-log
           terminationMessagePolicy: File
           volumeMounts:

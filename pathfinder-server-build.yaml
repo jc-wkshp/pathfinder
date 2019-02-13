@@ -35,7 +35,7 @@ objects:
       contextDir: pathfinder-server
       git:
         ref: master
-        uri: https://github.com/redhat-cop/pathfinder
+        uri: https://github.com/jc-wkshp/pathfinder
       type: Git
     strategy:
       sourceStrategy:

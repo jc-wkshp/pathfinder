@@ -40,6 +40,16 @@ var json = {
                 "choices": ["0-UNKNOWN|Unknown","1-RED|External 3rd party or COTS application ", "2-RED|In maintenance mode, no app SME knowledge, poor documentation", "3-AMBER|Maintenance mode, SME knowledge available", "4-GREEN|Actively developed, SME knowledge available", "5-GREEN|New Greenfield application"]
             },
             {
+                "type": "rating",
+                "name": "BUSPRIORITY",
+                "title": "Whats the level of business criticality of this application?",
+                "rateMin": 1,
+                "rateMax": 10,
+                "rateStep": 1,
+                "minRateDescription": "End of Life",
+                "maxRateDescription": "Core Business Critical"
+            },
+            {
                 "type": "radiogroup",
                 "name": "OPSOWNER",
                 "title": "How is the application supported in Production?",
